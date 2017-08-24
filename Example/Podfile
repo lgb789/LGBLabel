@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBLabel_Example' do
+  pod 'LGBLabel', :path => '../'
+
+  target 'LGBLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
