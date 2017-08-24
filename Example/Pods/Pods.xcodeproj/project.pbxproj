@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D91910FFAD0CEF3A0953913FBE6ADF /* Pods-LGBLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8A05AB776D5BD6B21446E8523F5E5A /* Pods-LGBLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEB7AA83529DC44684571A71B726B38 /* Pods-LGBLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEC56262C2E7B5CB46E73F46E85904 /* Pods-LGBLabel_Tests-dummy.m */; };
+		6B34C1C55DB35F3486D623DA509A9097 /* Pods-LGBLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975187E885FE6825D4BD0CE09F4BF676 /* Pods-LGBLabel_Example-dummy.m */; };
+		87EE58B7201B3880AECDFCED83DC96AF /* LGBLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0298287C98C4698313329A0C50D242 /* LGBLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88EB8CCB5E223B35695480668748F5C9 /* LGBLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E51A91462B36D52EF3F527B3E84B24 /* LGBLabel-dummy.m */; };
+		ABC001115F96F6393D9228652CDC930E /* Pods-LGBLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 146BDC5B1D81109FE13F01C4FEB3357D /* Pods-LGBLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89CE58F1F4EC7F700AE8589 /* UILabel+LGBLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B89CE58D1F4EC7F700AE8589 /* UILabel+LGBLabel.h */; };
+		B89CE5901F4EC7F700AE8589 /* UILabel+LGBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B89CE58E1F4EC7F700AE8589 /* UILabel+LGBLabel.m */; };
+		BD1E0C7E33B2728B9CE8AAD6CF17BC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1802B052B092337469811131BC1B3D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EDE0E58989DB70F8F3BD1E90FCCC4681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAC1F33CD7F22E45B6FDF172F3533F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F7E5701E2FE5E5DE2808D565528243;
+			remoteInfo = LGBLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C5B4723432D2383F74217A1D7701FA /* Pods-LGBLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		0C7B9698F989AE604F5A40D5E31C38B2 /* Pods-LGBLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		0D8BEF4924C0495981F6D67E507B3DDF /* Pods_LGBLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E51A91462B36D52EF3F527B3E84B24 /* LGBLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBLabel-dummy.m"; sourceTree = "<group>"; };
+		13DA7E2CF67BBC6E6561106C6B4AF71A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146BDC5B1D81109FE13F01C4FEB3357D /* Pods-LGBLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		26C2CE381B6E94C654A2C21914315F1B /* Pods_LGBLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A93B2D4B96BAE546C4C217D66E676CB /* Pods-LGBLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E0298287C98C4698313329A0C50D242 /* LGBLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBLabel-umbrella.h"; sourceTree = "<group>"; };
+		40910CE9B2D2E6E27C93DE58483E5EE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F8E1A57C75BA97B1DA33105308D72B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431C766810D7D7930C21911FB7418F9D /* LGBLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBLabel.xcconfig; sourceTree = "<group>"; };
+		4C291745CB7772F16A0FA4199EBF9E24 /* LGBLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBLabel.modulemap; sourceTree = "<group>"; };
+		5025724DF1EB7056BD7E75AAAEBC2A42 /* Pods-LGBLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D016DE77B1EB1ABF3963641E6F86CEC /* Pods-LGBLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		5E89DC51365ADB8DE57B1F38B1C24442 /* LGBLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBLabel-prefix.pch"; sourceTree = "<group>"; };
+		6058D70663B12D26FBD30562F290AE6E /* Pods-LGBLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBLabel_Example.modulemap"; sourceTree = "<group>"; };
+		653D5DB08C7AC986599BA4688252F625 /* Pods-LGBLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BBEC56262C2E7B5CB46E73F46E85904 /* Pods-LGBLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		82997DA44BFE702E5A8A62C0D023DBD6 /* Pods-LGBLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DF26005E27D3EF72A39333FA3FC41B3 /* Pods-LGBLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8EBEF5C6BEA250922FC016481B552A4D /* Pods-LGBLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975187E885FE6825D4BD0CE09F4BF676 /* Pods-LGBLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		A6A47E411B4C0D324430EE4C935778E0 /* Pods-LGBLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD8A05AB776D5BD6B21446E8523F5E5A /* Pods-LGBLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B89CE58D1F4EC7F700AE8589 /* UILabel+LGBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LGBLabel.h"; sourceTree = "<group>"; };
+		B89CE58E1F4EC7F700AE8589 /* UILabel+LGBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGBLabel.m"; sourceTree = "<group>"; };
+		C4C6438C7A88DD125865CC1E833EB228 /* LGBLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA036BA9B418BC0A603810022C45D0B /* Pods-LGBLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E308BAA2FE5655ECDBC29558F872DDC6 /* Pods-LGBLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E47E3B30D3EE07F2036942B347C11DB4 /* Pods-LGBLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331B38B7DC73815F4FD0643593EF4A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1802B052B092337469811131BC1B3D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB34FAE0CDCF94624E7F760B10F4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1E0C7E33B2728B9CE8AAD6CF17BC74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1D3ABBF3EE52F3DC457C08FCAE4BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE0E58989DB70F8F3BD1E90FCCC4681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334A0EA5D3551D565CD6048060BC53F0 /* LGBLabel */ = {
+			isa = PBXGroup;
+			children = (
+				87C2EE07D0489AED8B528B37BA97DB85 /* Classes */,
+			);
+			path = LGBLabel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF76B7B3448A7A80B6539C94451EBBDE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BAB6E90ADCBB93D4536D79F045376ACC /* Products */,
+				989BFF4256211B8B82B2A5D32721456C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C2EE07D0489AED8B528B37BA97DB85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B89CE58D1F4EC7F700AE8589 /* UILabel+LGBLabel.h */,
+				B89CE58E1F4EC7F700AE8589 /* UILabel+LGBLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		989BFF4256211B8B82B2A5D32721456C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DDF2D6AE57EB3C4D368D6FC8123A5 /* Pods-LGBLabel_Example */,
+				D51573625456AF0D5B10D50CC99CCC64 /* Pods-LGBLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		992827CE83D04501853E6868B7C85AA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13DA7E2CF67BBC6E6561106C6B4AF71A /* Info.plist */,
+				4C291745CB7772F16A0FA4199EBF9E24 /* LGBLabel.modulemap */,
+				431C766810D7D7930C21911FB7418F9D /* LGBLabel.xcconfig */,
+				10E51A91462B36D52EF3F527B3E84B24 /* LGBLabel-dummy.m */,
+				5E89DC51365ADB8DE57B1F38B1C24442 /* LGBLabel-prefix.pch */,
+				3E0298287C98C4698313329A0C50D242 /* LGBLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBLabel";
+			sourceTree = "<group>";
+		};
+		BAB6E90ADCBB93D4536D79F045376ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C6438C7A88DD125865CC1E833EB228 /* LGBLabel.framework */,
+				0D8BEF4924C0495981F6D67E507B3DDF /* Pods_LGBLabel_Example.framework */,
+				26C2CE381B6E94C654A2C21914315F1B /* Pods_LGBLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D51573625456AF0D5B10D50CC99CCC64 /* Pods-LGBLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42F8E1A57C75BA97B1DA33105308D72B /* Info.plist */,
+				01C5B4723432D2383F74217A1D7701FA /* Pods-LGBLabel_Tests.modulemap */,
+				82997DA44BFE702E5A8A62C0D023DBD6 /* Pods-LGBLabel_Tests-acknowledgements.markdown */,
+				653D5DB08C7AC986599BA4688252F625 /* Pods-LGBLabel_Tests-acknowledgements.plist */,
+				7BBEC56262C2E7B5CB46E73F46E85904 /* Pods-LGBLabel_Tests-dummy.m */,
+				5025724DF1EB7056BD7E75AAAEBC2A42 /* Pods-LGBLabel_Tests-frameworks.sh */,
+				5D016DE77B1EB1ABF3963641E6F86CEC /* Pods-LGBLabel_Tests-resources.sh */,
+				AD8A05AB776D5BD6B21446E8523F5E5A /* Pods-LGBLabel_Tests-umbrella.h */,
+				DBA036BA9B418BC0A603810022C45D0B /* Pods-LGBLabel_Tests.debug.xcconfig */,
+				8DF26005E27D3EF72A39333FA3FC41B3 /* Pods-LGBLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGBLabel_Tests";
+			path = "Target Support Files/Pods-LGBLabel_Tests";
+			sourceTree = "<group>";
+		};
+		E7D3C5FECF5438597D2E473A4DB79FC9 /* LGBLabel */ = {
+			isa = PBXGroup;
+			children = (
+				334A0EA5D3551D565CD6048060BC53F0 /* LGBLabel */,
+				992827CE83D04501853E6868B7C85AA0 /* Support Files */,
+			);
+			name = LGBLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FF6DDF2D6AE57EB3C4D368D6FC8123A5 /* Pods-LGBLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40910CE9B2D2E6E27C93DE58483E5EE1 /* Info.plist */,
+				6058D70663B12D26FBD30562F290AE6E /* Pods-LGBLabel_Example.modulemap */,
+				2A93B2D4B96BAE546C4C217D66E676CB /* Pods-LGBLabel_Example-acknowledgements.markdown */,
+				A6A47E411B4C0D324430EE4C935778E0 /* Pods-LGBLabel_Example-acknowledgements.plist */,
+				975187E885FE6825D4BD0CE09F4BF676 /* Pods-LGBLabel_Example-dummy.m */,
+				E308BAA2FE5655ECDBC29558F872DDC6 /* Pods-LGBLabel_Example-frameworks.sh */,
+				0C7B9698F989AE604F5A40D5E31C38B2 /* Pods-LGBLabel_Example-resources.sh */,
+				146BDC5B1D81109FE13F01C4FEB3357D /* Pods-LGBLabel_Example-umbrella.h */,
+				8EBEF5C6BEA250922FC016481B552A4D /* Pods-LGBLabel_Example.debug.xcconfig */,
+				E47E3B30D3EE07F2036942B347C11DB4 /* Pods-LGBLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-LGBLabel_Example";
+			path = "Target Support Files/Pods-LGBLabel_Example";
+			sourceTree = "<group>";
+		};
+		FF76B7B3448A7A80B6539C94451EBBDE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7D3C5FECF5438597D2E473A4DB79FC9 /* LGBLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		008BAC60EE2ACA8DF7E5938908723885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC001115F96F6393D9228652CDC930E /* Pods-LGBLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D8CE43E04B1657A147C4A11FD794FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89CE58F1F4EC7F700AE8589 /* UILabel+LGBLabel.h in Headers */,
+				87EE58B7201B3880AECDFCED83DC96AF /* LGBLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A4FC58377653D0F2E3766B9DF9D1E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D91910FFAD0CEF3A0953913FBE6ADF /* Pods-LGBLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38F7E5701E2FE5E5DE2808D565528243 /* LGBLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BB74FD0EB6AF20BA1FF42F69F63C50 /* Build configuration list for PBXNativeTarget "LGBLabel" */;
+			buildPhases = (
+				13376B2BE6B57876FB4124ADCB47C65B /* Sources */,
+				331B38B7DC73815F4FD0643593EF4A98 /* Frameworks */,
+				42D8CE43E04B1657A147C4A11FD794FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBLabel;
+			productName = LGBLabel;
+			productReference = C4C6438C7A88DD125865CC1E833EB228 /* LGBLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D374D331A2D75B39FF8BADC36C617C3 /* Pods-LGBLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFD83846CEC6392B6B07E81B84D10F /* Build configuration list for PBXNativeTarget "Pods-LGBLabel_Tests" */;
+			buildPhases = (
+				D11BDEA1573A61C605D13AA95D0781DD /* Sources */,
+				9BB34FAE0CDCF94624E7F760B10F4BB8 /* Frameworks */,
+				90A4FC58377653D0F2E3766B9DF9D1E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGBLabel_Tests";
+			productName = "Pods-LGBLabel_Tests";
+			productReference = 26C2CE381B6E94C654A2C21914315F1B /* Pods_LGBLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D28D283F6A50B91380DE48B6E82BB13E /* Pods-LGBLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0F1E9A61D2065AB90813AC18733040 /* Build configuration list for PBXNativeTarget "Pods-LGBLabel_Example" */;
+			buildPhases = (
+				820221DD071777EE46CF3C7922E639C5 /* Sources */,
+				AB1D3ABBF3EE52F3DC457C08FCAE4BCF /* Frameworks */,
+				008BAC60EE2ACA8DF7E5938908723885 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE43AD6D85743C088ACF3D54538ACB33 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBLabel_Example";
+			productName = "Pods-LGBLabel_Example";
+			productReference = 0D8BEF4924C0495981F6D67E507B3DDF /* Pods_LGBLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BAB6E90ADCBB93D4536D79F045376ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F7E5701E2FE5E5DE2808D565528243 /* LGBLabel */,
+				D28D283F6A50B91380DE48B6E82BB13E /* Pods-LGBLabel_Example */,
+				9D374D331A2D75B39FF8BADC36C617C3 /* Pods-LGBLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13376B2BE6B57876FB4124ADCB47C65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EB8CCB5E223B35695480668748F5C9 /* LGBLabel-dummy.m in Sources */,
+				B89CE5901F4EC7F700AE8589 /* UILabel+LGBLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820221DD071777EE46CF3C7922E639C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B34C1C55DB35F3486D623DA509A9097 /* Pods-LGBLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11BDEA1573A61C605D13AA95D0781DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB7AA83529DC44684571A71B726B38 /* Pods-LGBLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE43AD6D85743C088ACF3D54538ACB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBLabel;
+			target = 38F7E5701E2FE5E5DE2808D565528243 /* LGBLabel */;
+			targetProxy = 6DAC1F33CD7F22E45B6FDF172F3533F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35012701C9767E6274B27A33F7E21812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47E3B30D3EE07F2036942B347C11DB4 /* Pods-LGBLabel_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBLabel_Example/Pods-LGBLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A580792DB4D9BB0A68DC98525112F501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF26005E27D3EF72A39333FA3FC41B3 /* Pods-LGBLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBLabel_Tests/Pods-LGBLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA182B894CB853BE1DEA9FAF3E0F385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431C766810D7D7930C21911FB7418F9D /* LGBLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBLabel/LGBLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBLabel/LGBLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGBLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC73B79987767FDBC7FE863E303B820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBEF5C6BEA250922FC016481B552A4D /* Pods-LGBLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBLabel_Example/Pods-LGBLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B61A19361F4DCC4A33804A21B249C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431C766810D7D7930C21911FB7418F9D /* LGBLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBLabel/LGBLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBLabel/LGBLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGBLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B909CB8CB93949E9EA64E51C6627680C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA036BA9B418BC0A603810022C45D0B /* Pods-LGBLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBLabel_Tests/Pods-LGBLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BB74FD0EB6AF20BA1FF42F69F63C50 /* Build configuration list for PBXNativeTarget "LGBLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA182B894CB853BE1DEA9FAF3E0F385E /* Debug */,
+				B61A19361F4DCC4A33804A21B249C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0F1E9A61D2065AB90813AC18733040 /* Build configuration list for PBXNativeTarget "Pods-LGBLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC73B79987767FDBC7FE863E303B820E /* Debug */,
+				35012701C9767E6274B27A33F7E21812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAFD83846CEC6392B6B07E81B84D10F /* Build configuration list for PBXNativeTarget "Pods-LGBLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909CB8CB93949E9EA64E51C6627680C /* Debug */,
+				A580792DB4D9BB0A68DC98525112F501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

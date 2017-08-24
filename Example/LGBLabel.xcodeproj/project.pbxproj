@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04095891BCCA0D6868659785 /* LGBLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGBLabel.podspec; path = ../LGBLabel.podspec; sourceTree = "<group>"; };
+		04095891BCCA0D6868659785 /* LGBLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBLabel.podspec; path = ../LGBLabel.podspec; sourceTree = "<group>"; };
 		2EB1949616357369C5279654 /* Pods_LGBLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43F86851F425E74721067A1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43F86851F425E74721067A1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGBLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		DD0601B26550EF8E306A443D /* Pods-LGBLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBLabel_Example/Pods-LGBLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE3E1DD6E5178A3C20D56F20 /* Pods-LGBLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBLabel_Example/Pods-LGBLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE839E5AABF5018809080705 /* Pods_LGBLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEFB2BD1DCB2F02006B6F8B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEFB2BD1DCB2F02006B6F8B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "lgb789@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6888BNAKKV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = FE3E1DD6E5178A3C20D56F20 /* Pods-LGBLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6888BNAKKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBLabel/LGBLabel-Prefix.pch";
 				INFOPLIST_FILE = "LGBLabel/LGBLabel-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = DD0601B26550EF8E306A443D /* Pods-LGBLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6888BNAKKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBLabel/LGBLabel-Prefix.pch";
 				INFOPLIST_FILE = "LGBLabel/LGBLabel-Info.plist";

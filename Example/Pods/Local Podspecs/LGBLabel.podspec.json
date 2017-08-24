@@ -1,0 +1,22 @@
+{
+  "name": "LGBLabel",
+  "version": "0.1.0",
+  "summary": "A short description of LGBLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lgb789@126.com/LGBLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lgb789@126.com": "lgb789@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lgb789@126.com/LGBLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGBLabel/Classes/**/*"
+}

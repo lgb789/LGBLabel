@@ -1,0 +1,16 @@
+PODS:
+  - LGBLabel (0.1.0)
+
+DEPENDENCIES:
+  - LGBLabel (from `../`)
+
+EXTERNAL SOURCES:
+  LGBLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBLabel: 6678a58cb3b17ef0a5f4d16e59429b481cf41de9
+
+PODFILE CHECKSUM: 6d51d66e8fcdf90e4a4be4807f86f01265b0a4c8
+
+COCOAPODS: 1.2.1
